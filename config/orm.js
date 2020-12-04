@@ -1,11 +1,17 @@
 //import connection
 var connection = require("../config/connection");
 
-//selectAll data function
+var orm = {
+    //selectAll data function
+    selectAll:
 
-//insertOne data function
+    //insertOne data function
+    insertOne:
 
-//updateOne data function
+    //updateOne data function
+    updateOne
+
+};
 
 //export orm
 module.exports = orm;
