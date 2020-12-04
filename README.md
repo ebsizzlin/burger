@@ -19,3 +19,5 @@ HTML, JavaScript, Node.js, Express, Handlebars, MySQL
 ## Screenshots
 
 ## Walkthrough
+
+13MVC 17CatsApp activity helped heavily.
