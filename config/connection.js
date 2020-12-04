@@ -2,6 +2,12 @@
 var mysql = require("mysql");
 
 //database connection details
+var connection;
+//if heroku connection
+if (process.env.JAWSDB_URL) {
+    connection = mysql.createConnection(process.env.JAWSDB_URL);
+}
+//if local database connection
 var connection = mysql.createConnection({
     host: 'localhost',
     port: 3306,
