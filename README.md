@@ -30,7 +30,7 @@ https://ebsizzlin.github.io/ResponsivePortfolio/portfolio.html
 
 ## Screenshots
 
-i cant yet it's super ugly like so ugly
+<img width="1496" alt="Screen Shot 2020-12-04 at 10 28 06 AM" src="https://user-images.githubusercontent.com/70185995/101181950-7df29980-361b-11eb-84b2-28e809258519.png">
 
 ## Walkthrough
 
