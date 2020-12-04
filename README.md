@@ -12,7 +12,7 @@
 
 ## Tech Used
 
-HTML, JavaScript, Node.js, Express, Handlebars, MySQL, ORM
+HTML, JavaScript, Node.js, Express, Handlebars, MySQL, ORM, AJAX
 
 ## Instructions
 
