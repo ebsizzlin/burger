@@ -5,12 +5,32 @@ body {
   font-size: 20px;
 }
 
+div.container {
+  width: 85%;
+  margin: 25px auto;
+}
+
+input.form-control {
+  display: inline-block;
+  width: 75%;
+  margin: 10px auto auto auto;
+  font-size: 15px;
+}
+
 img {
+  margin-bottom: 15px;
   align-content: center;
 }
 
 h1 {
   text-align: center;
+  font-size: 50px;
+}
+
+h2 {
+  display: inline-block;
+  margin-left: 15px;
+  font-size: 25px;
 }
 
 li {
@@ -20,8 +40,14 @@ li {
 }
 
 button {
+  display: inline-block;
   margin-top: 5px;
-  margin-bottom: 15px;
+  margin-left: 10px;
+  margin-bottom: 25px;
+  padding: 5px 10px;
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
 }
 
 .form-group {
@@ -38,4 +64,7 @@ button {
 #notDevoured,
 #devoured {
   font-size: 25px;
+  padding: 5px 10px 0px 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
