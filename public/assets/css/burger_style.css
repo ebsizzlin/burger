@@ -2,6 +2,11 @@ body {
   width: 85%;
   background-color: wheat;
   margin: auto;
+  font-size: 20px;
+}
+
+img {
+  align-content: center;
 }
 
 h1 {
@@ -23,11 +28,14 @@ button {
   margin-bottom: 10px;
 }
 
-.notDevoured {
-}
-
 .newBurger {
+  margin: 10px auto;
+  padding: 5px 10px 0px 10px;
+  background: oldlace;
+  border-radius: 10px;
 }
 
-.devoured {
+#notDevoured,
+#devoured {
+  font-size: 25px;
 }
