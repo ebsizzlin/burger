@@ -34,11 +34,11 @@ var orm = {
     //all()
     selectAll: (tableInput, cb) => {
         var queryAll = "select * from " + tableInput + ";";
-        connection.query(queryAll, function (err, res) {
+        connection.query(queryAll, function (err, result) {
             if (err) {
                 throw err;
             }
-            cb(res);
+            cb(result);
         });
     },
 
@@ -56,11 +56,11 @@ var orm = {
 
         console.log(queryAdd);
 
-        connection.query(queryAdd, vals, (err, res) => {
+        connection.query(queryAdd, vals, (err, result) => {
             if (err) {
                 throw err;
             }
-            cb(res);
+            cb(result);
         })
     },
 
@@ -75,12 +75,12 @@ var orm = {
         queryUpdate += condition;
 
         console.log(queryUpdate);
-        connection.query(queryUpdate, (err, res) => {
+        connection.query(queryUpdate, (err, result) => {
             if (err) {
                 throw err;
             }
-            console.log(res);
-            cb(res);
+            console.log(result);
+            cb(result);
         });
     }
 };

@@ -13,7 +13,7 @@
 
         <br>
 
-        <button type="submitBtn" id="submit">
+        <button id="submit">
             Add-A-Burger!
         </button>
     </div>
@@ -30,10 +30,10 @@
                 {{#unless devoured}}
                 <li>
                     {{this.burger_name}}
+                    <button class="btnDevour" data-id={{this.id}} data-newDevour={{this.devoured}}>
+                        Devour it!
+                    </button>
                 </li>
-                <button class="btnDevour" data-id={{this.id}} data-newDevour="{{devoured}}">
-                    Devour it!
-                </button>
                 {{/unless}}
                 {{/each}}
             </ul>
