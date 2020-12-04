@@ -1,12 +1,18 @@
-# Node Express Handlebars - Eat A Burger
+# Node Express Handlebars - Eat-Da-Burger!
 
 ## Description
 
-A restaurant app that allows the user to input the names of the burgers they want.
+- Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
+
+- Whenever a user submits a burger's name, the app will display the burger on the left side of the page -- waiting to be devoured.
+
+- Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the right side of the page.
+
+- The app stores every burger in a database, whether devoured or not.
 
 ## Tech Used
 
-HTML, JavaScript, Node.js, Express, Handlebars, MySQL
+HTML, JavaScript, Node.js, Express, Handlebars, MySQL, ORM
 
 ## Instructions
 
@@ -20,4 +26,4 @@ HTML, JavaScript, Node.js, Express, Handlebars, MySQL
 
 ## Walkthrough
 
-13MVC 17CatsApp activity helped heavily.
+13MVC CatsApp activity helped heavily.
