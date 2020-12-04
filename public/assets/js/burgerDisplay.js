@@ -4,8 +4,8 @@ $(() => {
         event.preventDefault();
 
         var newBurger = {
-            burger_name: $('#name').val().trim(),
-            devoured: false
+            burger_name: $('#burgerName').val().trim(),
+            devoured: $("[name=devoured]:checked").val()
         };
 
         //post
@@ -23,16 +23,15 @@ $(() => {
     //btnDevour
     $('.btnDevour').on('click', (event) => {
         var id = $(this).data('id');
-        var newDevour = $(this).data('newDevour');
+        var devoured = $(this).data('devoured');
 
-        var devourState = {
-            devoured: true
-        };
-        console.log('devourState:', devourState)
+        var newlyDevoured = {
+            devoured: devoured
+        }
 
         $.ajax('/api/burgers/' + id, {
             type: 'PUT',
-            data: devourState
+            data: newlyDevoured
         }).then(
             () => {
                 console.log('changed to devoured', devoured);
