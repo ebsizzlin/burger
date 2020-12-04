@@ -2,7 +2,7 @@
 var connection = require("../config/connection.js");
 
 //adding in js from CatsApp activity
-function printQuestionMarks(num) {
+function printQuestionMarks(num) { //can i make this into an arrow function?
     var arr = [];
 
     for (var i = 0; i < num; i++) {
@@ -12,7 +12,7 @@ function printQuestionMarks(num) {
 }
   
 
-function objToSql(ob) {
+function objToSql(ob) { //can i make this into an arrow function?
     var arr = [];
 
     for (var key in ob) {
@@ -32,7 +32,7 @@ function objToSql(ob) {
 
 var orm = {
     //all()
-    selectAll: function (tableInput, cb) {
+    selectAll: (tableInput, cb) => {
         var queryAll = "select * from " + tableInput + ";";
         connection.query(queryAll, function (err, res) {
             if (err) {
@@ -44,7 +44,7 @@ var orm = {
 
 
     //create()
-    insertOne: function (table, cols, vals, cb) {
+    insertOne: (table, cols, vals, cb) => {
         var queryAdd = "insert into " + table;
 
         queryAdd += " (";
@@ -56,7 +56,7 @@ var orm = {
 
         console.log(queryAdd);
 
-        connection.query(queryAdd, vals, function (err, res) {
+        connection.query(queryAdd, vals, (err, res) => {
             if (err) {
                 throw err;
             }
@@ -66,7 +66,7 @@ var orm = {
 
 
     //update()
-    updateOne: function (table, objColVals, condition, cb) {
+    updateOne: (table, objColVals, condition, cb) => {
         var queryUpdate = "update " + table;
 
         queryUpdate += " set ";
@@ -75,7 +75,7 @@ var orm = {
         queryUpdate += condition;
 
         console.log(queryUpdate);
-        connection.query(queryUpdate, function (err, res) {
+        connection.query(queryUpdate, (err, res) => {
             if (err) {
                 throw err;
             }
