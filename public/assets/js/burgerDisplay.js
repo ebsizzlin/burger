@@ -27,6 +27,7 @@ $(document).ready(() => {
         var devoured = event.target.getAttribute('data-newDevour');
         console.log('devoured', devoured);
         console.log(event.target.getAttribute('data-newDevour'));
+        
         var newlyDevoured = {
             devoured: true //not devoured: devoured
         };

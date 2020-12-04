@@ -6,7 +6,16 @@ var connection;
 //if heroku connection
 if (process.env.JAWSDB_URL) {
     connection = mysql.createConnection(process.env.JAWSDB_URL);
+} else {
+    connection = mysql.createConnection({
+      host: 'mna97msstjnkkp7h.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
+      port: 3306,
+      user: 'rf17qayvakdt1khn',
+      password: 'grtvjlb46to4yu07',
+      database: 'knp557aeez5e5cld'
+    })
 }
+
 //if local database connection
 var connection = mysql.createConnection({
     host: 'localhost',
