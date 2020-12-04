@@ -1,0 +1,24 @@
+body {
+  width: 85%;
+  background-color: wheat;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+li {
+  padding: 5px;
+  margin: 5px;
+  background: wheat;
+}
+
+button {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
