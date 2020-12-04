@@ -1,5 +1,5 @@
 -- name and whether ate or not inserts
-USE burger_db;
+USE burgers_db;
 
 INSERT INTO burgers (burger_name, devoured) VALUES ('Slider', true);
 INSERT INTO burgers (burger_name, devoured) VALUES ('Salmon', false);
