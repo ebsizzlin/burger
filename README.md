@@ -24,7 +24,13 @@ HTML, JavaScript, Node.js, Express, Handlebars, MySQL, ORM
 
 https://radiant-ridge-31259.herokuapp.com/
 
+## Updated Portfolio Link
+
+https://ebsizzlin.github.io/ResponsivePortfolio/portfolio.html
+
 ## Screenshots
+
+i cant yet it's super ugly like so ugly
 
 ## Walkthrough
 
