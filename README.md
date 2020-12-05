@@ -24,6 +24,8 @@ HTML, JavaScript, Node.js, Express, Handlebars, MySQL, ORM, AJAX
 
 https://radiant-ridge-31259.herokuapp.com/
 
+<!-- works locally, having trouble getting heroku database functioning -->
+
 ## Updated Portfolio Link
 
 https://ebsizzlin.github.io/ResponsivePortfolio/portfolio.html
@@ -35,3 +37,5 @@ https://ebsizzlin.github.io/ResponsivePortfolio/portfolio.html
 ## Walkthrough
 
 13MVC CatsApp activity helped heavily.
+
+https://drive.google.com/file/d/16S0kTP7AyINHXHG-cSW5mRacN4QSBMqS/view?usp=sharing
