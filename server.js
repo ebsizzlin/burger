@@ -5,12 +5,11 @@ var PORT = process.env.PORT || 8080;
 var app = express();
 
 //static
-app.use(express.static("public"));
+app.use("/static-files", express.static("public"));
 
 //json parse
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-
 
 //handlebars
 var exphbs = require("express-handlebars");
