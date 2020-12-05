@@ -5,7 +5,8 @@ var PORT = process.env.PORT || 8080;
 var app = express();
 
 //static
-app.use("/static-files", express.static("public"));
+app.use(express.static("public"));
+// "/static-files", 
 
 //json parse
 app.use(express.urlencoded({ extended: true }));
