@@ -14,15 +14,17 @@
 
 HTML, JavaScript, Node.js, Express, Handlebars, MySQL, ORM, AJAX
 
-## Instructions
-
-1. clone repo
-2. npm install express, npm install express-handlebars, npm install mysql
-3. run node server.js
-
 ## Heroku Link
 
 https://radiant-ridge-31259.herokuapp.com/
+
+## Instructions
+
+To run locally:
+
+1. clone repo
+2. npm install express, npm install express-handlebars, npm install mysql
+3. run node server.js, go to localhost:8080
 
 <!-- works locally, having trouble getting heroku database functioning -->
 
